@@ -1,0 +1,253 @@
+root@cpm:~/scriptsH#  iperf3 -u -c 192.168.1.30 -b 0 -l 18                                                                                                                                                                                    													Accepted connection from 192.168.1.20, port 39642		
+Connecting to host 192.168.1.30, port 5201													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 56597		
+[  5] local 192.168.1.20 port 56597 connected to 192.168.1.30 port 5201													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+[ ID] Interval           Transfer     Bitrate         Total Datagrams													[  5]   0.00-1.00   sec   866 KBytes  7.10 Mbits/sec  0.005 ms  1669/50946 (3.3%)  		
+[  5]   0.00-1.00   sec   896 KBytes  7.34 Mbits/sec  50960  													[  5]   1.00-2.00   sec   895 KBytes  7.33 Mbits/sec  0.006 ms  0/50931 (0%)  		
+[  5]   1.00-2.00   sec   895 KBytes  7.33 Mbits/sec  50930  													[  5]   2.00-3.00   sec   893 KBytes  7.32 Mbits/sec  0.006 ms  0/50808 (0%)  		
+[  5]   2.00-3.00   sec   893 KBytes  7.32 Mbits/sec  50800  													[  5]   3.00-4.00   sec   889 KBytes  7.29 Mbits/sec  0.007 ms  0/50591 (0%)  		
+[  5]   3.00-4.00   sec   889 KBytes  7.29 Mbits/sec  50600  													[  5]   4.00-5.00   sec   891 KBytes  7.30 Mbits/sec  0.006 ms  0/50697 (0%)  		
+[  5]   4.00-5.00   sec   891 KBytes  7.30 Mbits/sec  50690  													[  5]   5.00-6.00   sec   903 KBytes  7.40 Mbits/sec  0.006 ms  0/51394 (0%)  		
+[  5]   5.00-6.00   sec   904 KBytes  7.40 Mbits/sec  51400  													[  5]   6.00-7.00   sec   903 KBytes  7.40 Mbits/sec  0.006 ms  0/51374 (0%)  		
+[  5]   6.00-7.00   sec   903 KBytes  7.40 Mbits/sec  51370  													[  5]   7.00-8.00   sec   898 KBytes  7.36 Mbits/sec  0.005 ms  0/51084 (0%)  		
+[  5]   7.00-8.00   sec   898 KBytes  7.36 Mbits/sec  51080  													[  5]   8.00-9.00   sec   905 KBytes  7.42 Mbits/sec  0.007 ms  0/51499 (0%)  		
+[  5]   8.00-9.00   sec   905 KBytes  7.42 Mbits/sec  51500  													[  5]   9.00-10.00  sec   903 KBytes  7.40 Mbits/sec  0.006 ms  0/51389 (0%)  		
+[  5]   9.00-10.00  sec   903 KBytes  7.40 Mbits/sec  51390  													[  5]  10.00-10.00  sec   126 Bytes  3.98 Mbits/sec  0.007 ms  0/7 (0%)  		
+- - - - - - - - - - - - - - - - - - - - - - - - -													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+[  5]   0.00-10.00  sec  8.77 MBytes  7.35 Mbits/sec  0.000 ms  0/510720 (0%)  sender													[  5]   0.00-10.00  sec  8.74 MBytes  7.33 Mbits/sec  0.007 ms  1669/510720 (0.33%)  receiver		
+[  5]   0.00-10.00  sec  8.74 MBytes  7.33 Mbits/sec  0.007 ms  1669/510720 (0.33%)  receiver													-----------------------------------------------------------		
+													Server listening on 5201		
+iperf Done.													-----------------------------------------------------------		
+root@cpm:~/scriptsH#  iperf3 -u -c 192.168.1.30 -b 0 -l 82													Accepted connection from 192.168.1.20, port 39644		
+Connecting to host 192.168.1.30, port 5201													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 54394		
+[  5] local 192.168.1.20 port 54394 connected to 192.168.1.30 port 5201													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+[ ID] Interval           Transfer     Bitrate         Total Datagrams													[  5]   0.00-1.00   sec  3.99 MBytes  33.4 Mbits/sec  0.005 ms  0/50978 (0%)  		
+[  5]   0.00-1.00   sec  3.99 MBytes  33.4 Mbits/sec  50990  													[  5]   1.00-2.00   sec  4.01 MBytes  33.7 Mbits/sec  0.005 ms  0/51304 (0%)  		
+[  5]   1.00-2.00   sec  4.01 MBytes  33.7 Mbits/sec  51300  													[  5]   2.00-3.00   sec  3.99 MBytes  33.5 Mbits/sec  0.005 ms  354/51389 (0.69%)  		
+[  5]   2.00-3.00   sec  4.02 MBytes  33.7 Mbits/sec  51390  													[  5]   3.00-4.00   sec  4.01 MBytes  33.6 Mbits/sec  0.004 ms  0/51236 (0%)  		
+[  5]   3.00-4.00   sec  4.01 MBytes  33.6 Mbits/sec  51240  													[  5]   4.00-5.00   sec  4.01 MBytes  33.6 Mbits/sec  0.120 ms  0/51257 (0%)  		
+[  5]   4.00-5.00   sec  4.02 MBytes  33.7 Mbits/sec  51350  													[  5]   5.00-6.00   sec  4.01 MBytes  33.6 Mbits/sec  0.005 ms  0/51226 (0%)  		
+[  5]   5.00-6.00   sec  4.00 MBytes  33.5 Mbits/sec  51130  													[  5]   6.00-7.00   sec  4.01 MBytes  33.6 Mbits/sec  0.006 ms  0/51272 (0%)  		
+[  5]   6.00-7.00   sec  4.01 MBytes  33.6 Mbits/sec  51270  													[  5]   7.00-8.00   sec  4.00 MBytes  33.5 Mbits/sec  0.005 ms  0/51135 (0%)  		
+[  5]   7.00-8.00   sec  4.00 MBytes  33.5 Mbits/sec  51140  													[  5]   8.00-9.00   sec  3.99 MBytes  33.5 Mbits/sec  0.006 ms  0/51038 (0%)  		
+[  5]   8.00-9.00   sec  3.99 MBytes  33.5 Mbits/sec  51040  													[  5]   9.00-10.00  sec  3.89 MBytes  32.6 Mbits/sec  0.005 ms  1347/51094 (2.6%)  		
+[  5]   9.00-10.00  sec  4.00 MBytes  33.5 Mbits/sec  51090  													- - - - - - - - - - - - - - - - - - - - - - - - -		
+- - - - - - - - - - - - - - - - - - - - - - - - -													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams													[  5]   0.00-10.00  sec  39.9 MBytes  33.5 Mbits/sec  0.005 ms  1701/511929 (0.33%)  receiver		
+[  5]   0.00-10.00  sec  40.0 MBytes  33.6 Mbits/sec  0.000 ms  0/511940 (0%)  sender													-----------------------------------------------------------		
+[  5]   0.00-10.00  sec  39.9 MBytes  33.5 Mbits/sec  0.005 ms  1701/511929 (0.33%)  receiver													Server listening on 5201		
+													-----------------------------------------------------------		
+iperf Done.													Accepted connection from 192.168.1.20, port 39646		
+root@cpm:~/scriptsH# 													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 55104		
+root@cpm:~/scriptsH#  iperf3 -u -c 192.168.1.30 -b 0 -l 210													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+Connecting to host 192.168.1.30, port 5201													[  5]   0.00-1.00   sec  9.04 MBytes  75.8 Mbits/sec  0.008 ms  0/45117 (0%)  		
+[  5] local 192.168.1.20 port 55104 connected to 192.168.1.30 port 5201													[  5]   1.00-2.00   sec  9.03 MBytes  75.7 Mbits/sec  0.007 ms  0/45081 (0%)  		
+[ ID] Interval           Transfer     Bitrate         Total Datagrams													[  5]   2.00-3.00   sec  8.98 MBytes  75.3 Mbits/sec  0.008 ms  236/45060 (0.52%)  		
+[  5]   0.00-1.00   sec  9.04 MBytes  75.8 Mbits/sec  45140  													[  5]   3.00-4.00   sec  9.04 MBytes  75.8 Mbits/sec  0.009 ms  0/45126 (0%)  		
+[  5]   1.00-2.00   sec  9.03 MBytes  75.7 Mbits/sec  45080  													[  5]   4.00-5.00   sec  8.97 MBytes  75.3 Mbits/sec  0.007 ms  211/45018 (0.47%)  		
+[  5]   2.00-3.00   sec  9.02 MBytes  75.7 Mbits/sec  45060  													[  5]   5.00-6.00   sec  9.04 MBytes  75.8 Mbits/sec  0.007 ms  0/45117 (0%)  		
+[  5]   3.00-4.00   sec  9.04 MBytes  75.8 Mbits/sec  45130  													[  5]   6.00-7.00   sec  9.04 MBytes  75.8 Mbits/sec  0.008 ms  0/45128 (0%)  		
+[  5]   4.00-5.00   sec  9.02 MBytes  75.6 Mbits/sec  45020  													[  5]   7.00-8.00   sec  8.96 MBytes  75.2 Mbits/sec  0.009 ms  334/45091 (0.74%)  		
+[  5]   5.00-6.00   sec  9.03 MBytes  75.8 Mbits/sec  45110  													[  5]   8.00-9.00   sec  9.02 MBytes  75.7 Mbits/sec  0.008 ms  11/45065 (0.024%)  		
+[  5]   6.00-7.00   sec  9.04 MBytes  75.8 Mbits/sec  45130  													[  5]   9.00-10.00  sec  9.01 MBytes  75.6 Mbits/sec  0.008 ms  54/45046 (0.12%)  		
+[  5]   7.00-8.00   sec  9.03 MBytes  75.8 Mbits/sec  45090  													[  5]  10.00-10.00  sec  4.31 KBytes  64.9 Mbits/sec  0.008 ms  0/21 (0%)  		
+[  5]   8.00-9.00   sec  9.03 MBytes  75.7 Mbits/sec  45070  													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[  5]   9.00-10.00  sec  9.02 MBytes  75.7 Mbits/sec  45040  													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+- - - - - - - - - - - - - - - - - - - - - - - - -													[  5]   0.00-10.00  sec  90.1 MBytes  75.6 Mbits/sec  0.008 ms  846/450870 (0.19%)  receiver		
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams													-----------------------------------------------------------		
+[  5]   0.00-10.00  sec  90.3 MBytes  75.7 Mbits/sec  0.000 ms  0/450870 (0%)  sender													Server listening on 5201		
+[  5]   0.00-10.00  sec  90.1 MBytes  75.6 Mbits/sec  0.008 ms  846/450870 (0.19%)  receiver													-----------------------------------------------------------		
+													Accepted connection from 192.168.1.20, port 39648		
+iperf Done.													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 50419		
+root@cpm:~/scriptsH#  iperf3 -u -c 192.168.1.30 -b 0 -l 466													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+Connecting to host 192.168.1.30, port 5201													[  5]   0.00-1.00   sec  8.29 MBytes  69.5 Mbits/sec  0.188 ms  4726/23384 (20%)  		
+[  5] local 192.168.1.20 port 50419 connected to 192.168.1.30 port 5201													[  5]   1.00-2.00   sec  8.81 MBytes  74.0 Mbits/sec  0.057 ms  3682/23517 (16%)  		
+[ ID] Interval           Transfer     Bitrate         Total Datagrams													[  5]   2.00-3.00   sec  9.08 MBytes  76.2 Mbits/sec  0.108 ms  2906/23328 (12%)  		
+[  5]   0.00-1.00   sec  10.4 MBytes  87.5 Mbits/sec  23480  													[  5]   3.00-4.00   sec  8.64 MBytes  72.4 Mbits/sec  0.145 ms  4073/23513 (17%)  		
+[  5]   1.00-2.00   sec  10.4 MBytes  87.4 Mbits/sec  23440  													[  5]   4.00-5.00   sec  8.99 MBytes  75.4 Mbits/sec  0.053 ms  3287/23517 (14%)  		
+[  5]   2.00-3.00   sec  10.4 MBytes  87.4 Mbits/sec  23440  													[  5]   5.00-6.00   sec  9.07 MBytes  76.1 Mbits/sec  0.203 ms  2929/23349 (13%)  		
+[  5]   3.00-4.00   sec  10.4 MBytes  87.4 Mbits/sec  23450  													[  5]   6.00-7.00   sec  8.21 MBytes  68.9 Mbits/sec  0.042 ms  4991/23465 (21%)  		
+[  5]   4.00-5.00   sec  10.4 MBytes  87.5 Mbits/sec  23470  													[  5]   7.00-8.00   sec  8.90 MBytes  74.6 Mbits/sec  0.193 ms  3458/23490 (15%)  		
+[  5]   5.00-6.00   sec  10.4 MBytes  87.4 Mbits/sec  23430  													[  5]   8.00-9.00   sec  8.75 MBytes  73.4 Mbits/sec  0.031 ms  3798/23488 (16%)  		
+[  5]   6.00-7.00   sec  10.4 MBytes  87.5 Mbits/sec  23470  													[  5]   9.00-10.00  sec  8.89 MBytes  74.5 Mbits/sec  0.189 ms  3395/23389 (15%)  		
+[  5]   7.00-8.00   sec  10.4 MBytes  87.5 Mbits/sec  23470  													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[  5]   8.00-9.00   sec  10.4 MBytes  87.4 Mbits/sec  23440  													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+[  5]   9.00-10.00  sec  10.4 MBytes  87.4 Mbits/sec  23450  													[  5]   0.00-10.00  sec  87.6 MBytes  73.5 Mbits/sec  0.189 ms  37245/234440 (16%)  receiver		
+- - - - - - - - - - - - - - - - - - - - - - - - -													-----------------------------------------------------------		
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams													Server listening on 5201		
+[  5]   0.00-10.00  sec   104 MBytes  87.4 Mbits/sec  0.000 ms  0/234540 (0%)  sender													-----------------------------------------------------------		
+[  5]   0.00-10.00  sec  87.6 MBytes  73.5 Mbits/sec  0.189 ms  37245/234440 (16%)  receiver													Accepted connection from 192.168.1.20, port 39650		
+													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 42075		
+iperf Done.													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+root@cpm:~/scriptsH# 													[  5]   0.00-1.00   sec  11.1 MBytes  93.3 Mbits/sec  0.006 ms  0/11922 (0%)  		
+root@cpm:~/scriptsH#  iperf3 -u -c 192.168.1.30 -b 0 -l 978													[  5]   1.00-2.00   sec  11.1 MBytes  93.3 Mbits/sec  0.011 ms  0/11932 (0%)  		
+Connecting to host 192.168.1.30, port 5201													[  5]   2.00-3.00   sec  11.1 MBytes  93.4 Mbits/sec  0.010 ms  0/11941 (0%)  		
+[  5] local 192.168.1.20 port 42075 connected to 192.168.1.30 port 5201													[  5]   3.00-4.00   sec  11.1 MBytes  93.2 Mbits/sec  0.005 ms  0/11914 (0%)  		
+[ ID] Interval           Transfer     Bitrate         Total Datagrams													[  5]   4.00-5.00   sec  11.1 MBytes  93.4 Mbits/sec  0.008 ms  0/11943 (0%)  		
+[  5]   0.00-1.00   sec  11.1 MBytes  93.3 Mbits/sec  11930  													[  5]   5.00-6.00   sec  11.1 MBytes  93.3 Mbits/sec  0.006 ms  0/11931 (0%)  		
+[  5]   1.00-2.00   sec  11.1 MBytes  93.4 Mbits/sec  11930  													[  5]   6.00-7.00   sec  11.1 MBytes  93.4 Mbits/sec  0.005 ms  0/11943 (0%)  		
+[  5]   2.00-3.00   sec  11.1 MBytes  93.4 Mbits/sec  11950  													[  5]   7.00-8.00   sec  11.1 MBytes  93.3 Mbits/sec  0.007 ms  0/11931 (0%)  		
+[  5]   3.00-4.00   sec  11.1 MBytes  93.2 Mbits/sec  11910  													[  5]   8.00-9.00   sec  11.1 MBytes  93.4 Mbits/sec  0.010 ms  0/11943 (0%)  		
+[  5]   4.00-5.00   sec  11.1 MBytes  93.4 Mbits/sec  11940  													[  5]   9.00-10.00  sec  11.1 MBytes  93.3 Mbits/sec  0.005 ms  0/11931 (0%)  		
+[  5]   5.00-6.00   sec  11.1 MBytes  93.3 Mbits/sec  11930  													[  5]  10.00-10.00  sec  8.60 KBytes  86.6 Mbits/sec  0.029 ms  0/9 (0%)  		
+[  5]   6.00-7.00   sec  11.1 MBytes  93.4 Mbits/sec  11950  													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[  5]   7.00-8.00   sec  11.1 MBytes  93.3 Mbits/sec  11930  													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+[  5]   8.00-9.00   sec  11.1 MBytes  93.4 Mbits/sec  11940  													[  5]   0.00-10.00  sec   111 MBytes  93.4 Mbits/sec  0.029 ms  0/119340 (0%)  receiver		
+[  5]   9.00-10.00  sec  11.1 MBytes  93.3 Mbits/sec  11930  													-----------------------------------------------------------		
+- - - - - - - - - - - - - - - - - - - - - - - - -													Server listening on 5201		
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams													-----------------------------------------------------------		
+[  5]   0.00-10.00  sec   111 MBytes  93.4 Mbits/sec  0.000 ms  0/119340 (0%)  sender													Accepted connection from 192.168.1.20, port 39652		
+[  5]   0.00-10.00  sec   111 MBytes  93.4 Mbits/sec  0.029 ms  0/119340 (0%)  receiver													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 33920		
+													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+iperf Done.													[  5]   0.00-1.00   sec  11.4 MBytes  95.5 Mbits/sec  0.211 ms  25/8131 (0.31%)  		
+root@cpm:~/scriptsH#  iperf3 -u -c 192.168.1.30 -b 0 -l 1472													[  5]   1.00-2.00   sec  11.4 MBytes  95.6 Mbits/sec  0.185 ms  76/8196 (0.93%)  		
+warning: UDP block size 1472 exceeds TCP MSS 1448, may result in fragmentation / drops													[  5]   2.00-3.00   sec  11.4 MBytes  95.5 Mbits/sec  0.197 ms  125/8236 (1.5%)  		
+Connecting to host 192.168.1.30, port 5201													[  5]   3.00-4.00   sec  11.4 MBytes  95.4 Mbits/sec  0.177 ms  154/8254 (1.9%)  		
+[  5] local 192.168.1.20 port 33920 connected to 192.168.1.30 port 5201													[  5]   4.00-5.00   sec  11.4 MBytes  95.5 Mbits/sec  0.165 ms  219/8332 (2.6%)  		
+[ ID] Interval           Transfer     Bitrate         Total Datagrams													[  5]   5.00-6.00   sec  11.4 MBytes  95.6 Mbits/sec  0.165 ms  270/8391 (3.2%)  		
+[  5]   0.00-1.00   sec  11.5 MBytes  96.3 Mbits/sec  8180  													[  5]   6.00-7.00   sec  11.4 MBytes  95.5 Mbits/sec  0.196 ms  251/8364 (3%)  		
+[  5]   1.00-2.00   sec  11.5 MBytes  96.6 Mbits/sec  8200  													[  5]   7.00-8.00   sec  11.4 MBytes  95.5 Mbits/sec  0.203 ms  205/8318 (2.5%)  		
+[  5]   2.00-3.00   sec  11.6 MBytes  96.9 Mbits/sec  8230  													[  5]   8.00-9.00   sec  11.4 MBytes  95.6 Mbits/sec  0.165 ms  198/8318 (2.4%)  		
+[  5]   3.00-4.00   sec  11.6 MBytes  97.3 Mbits/sec  8260  													[  5]   9.00-10.00  sec  11.4 MBytes  95.6 Mbits/sec  0.196 ms  203/8324 (2.4%)  		
+[  5]   4.00-5.00   sec  11.7 MBytes  98.1 Mbits/sec  8330  													[  5]  10.00-10.00  sec  5.75 KBytes  63.8 Mbits/sec  0.173 ms  0/4 (0%)  		
+[  5]   5.00-6.00   sec  11.8 MBytes  98.8 Mbits/sec  8390  													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[  5]   6.00-7.00   sec  11.7 MBytes  98.6 Mbits/sec  8370  													[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams		
+[  5]   7.00-8.00   sec  11.7 MBytes  97.9 Mbits/sec  8310  													[  5]   0.00-10.00  sec   114 MBytes  95.5 Mbits/sec  0.173 ms  1726/82868 (2.1%)  receiver		
+[  5]   8.00-9.00   sec  11.7 MBytes  98.0 Mbits/sec  8320  													-----------------------------------------------------------		
+[  5]   9.00-10.00  sec  11.7 MBytes  98.1 Mbits/sec  8330  													Server listening on 5201		
+- - - - - - - - - - - - - - - - - - - - - - - - -													-----------------------------------------------------------		
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams													^Ciperf3: interrupt - the server has terminated		
+[  5]   0.00-10.00  sec   116 MBytes  97.6 Mbits/sec  0.000 ms  0/82920 (0%)  sender															
+[  5]   0.00-10.00  sec   114 MBytes  95.5 Mbits/sec  0.173 ms  1726/82868 (2.1%)  receiver															
+															
+iperf Done.															
+							iperf3 tcp (single port)						root@cpm:~/scriptsH#  iperf3 -s		
+													warning: this system does not seem to support IPv6 - trying IPv4		
+													-----------------------------------------------------------		
+root@cpm:~/scriptsH#  iperf3 -c 192.168.1.30 -l 18                                                                                                                                                                                            													Server listening on 5201		
+Connecting to host 192.168.1.30, port 5201													-----------------------------------------------------------		
+[  5] local 192.168.1.20 port 39656 connected to 192.168.1.30 port 5201													Accepted connection from 192.168.1.20, port 39654		
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 39656		
+[  5]   0.00-1.00   sec  1.45 MBytes  12.2 Mbits/sec    0   26.9 KBytes       													[ ID] Interval           Transfer     Bitrate		
+[  5]   1.00-2.00   sec  1.17 MBytes  9.80 Mbits/sec    0   26.9 KBytes       													[  5]   0.00-1.00   sec  1.16 MBytes  9.70 Mbits/sec                  		
+[  5]   2.00-3.00   sec  1.19 MBytes  9.95 Mbits/sec    0   26.9 KBytes       													[  5]   1.00-2.00   sec  1.18 MBytes  9.88 Mbits/sec                  		
+[  5]   3.00-4.00   sec  1.18 MBytes  9.92 Mbits/sec    0   26.9 KBytes       													[  5]   2.00-3.00   sec  1.18 MBytes  9.90 Mbits/sec                  		
+[  5]   4.00-5.00   sec  1.18 MBytes  9.86 Mbits/sec    0   26.9 KBytes       													[  5]   3.00-4.00   sec  1.18 MBytes  9.91 Mbits/sec                  		
+[  5]   5.00-6.00   sec  1.18 MBytes  9.91 Mbits/sec    0   26.9 KBytes       													[  5]   4.00-5.00   sec  1.19 MBytes  9.94 Mbits/sec                  		
+[  5]   6.00-7.00   sec  1.20 MBytes  10.1 Mbits/sec    0   26.9 KBytes       													[  5]   5.00-6.00   sec  1.18 MBytes  9.90 Mbits/sec                  		
+[  5]   7.00-8.00   sec  1.18 MBytes  9.92 Mbits/sec    0   26.9 KBytes       													[  5]   6.00-7.00   sec  1.19 MBytes  9.96 Mbits/sec                  		
+[  5]   8.00-9.00   sec  1.18 MBytes  9.90 Mbits/sec    0   26.9 KBytes       													[  5]   7.00-8.00   sec  1.19 MBytes  9.97 Mbits/sec                  		
+[  5]   9.00-10.00  sec  1.17 MBytes  9.85 Mbits/sec    0   26.9 KBytes       													[  5]   8.00-9.00   sec  1.18 MBytes  9.93 Mbits/sec                  		
+- - - - - - - - - - - - - - - - - - - - - - - - -													[  5]   9.00-10.00  sec  1.17 MBytes  9.86 Mbits/sec                  		
+[ ID] Interval           Transfer     Bitrate         Retr													[  5]  10.00-10.00  sec   198 Bytes  6.00 Mbits/sec                  		
+[  5]   0.00-10.00  sec  12.1 MBytes  10.1 Mbits/sec    0             sender													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[  5]   0.00-10.00  sec  11.8 MBytes  9.89 Mbits/sec                  receiver													[ ID] Interval           Transfer     Bitrate		
+													[  5]   0.00-10.00  sec  11.8 MBytes  9.89 Mbits/sec                  receiver		
+iperf Done.													-----------------------------------------------------------		
+root@cpm:~/scriptsH# 													Server listening on 5201		
+root@cpm:~/scriptsH#  iperf3 -c 192.168.1.30 -l 82													-----------------------------------------------------------		
+Connecting to host 192.168.1.30, port 5201													Accepted connection from 192.168.1.20, port 39658		
+[  5] local 192.168.1.20 port 39660 connected to 192.168.1.30 port 5201													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 39660		
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd													[ ID] Interval           Transfer     Bitrate		
+[  5]   0.00-1.00   sec  5.14 MBytes  43.0 Mbits/sec    2   21.2 KBytes       													[  5]   0.00-1.00   sec  5.03 MBytes  42.2 Mbits/sec                  		
+[  5]   1.00-2.00   sec  5.11 MBytes  42.9 Mbits/sec    0   21.2 KBytes       													[  5]   1.00-2.00   sec  5.11 MBytes  42.9 Mbits/sec                  		
+[  5]   2.00-3.00   sec  5.03 MBytes  42.2 Mbits/sec    0   21.2 KBytes       													[  5]   2.00-3.00   sec  5.01 MBytes  42.0 Mbits/sec                  		
+[  5]   3.00-4.00   sec  5.11 MBytes  42.9 Mbits/sec    3   21.2 KBytes       													[  5]   3.00-4.00   sec  5.12 MBytes  42.9 Mbits/sec                  		
+[  5]   4.00-5.00   sec  5.12 MBytes  42.9 Mbits/sec    0   21.2 KBytes       													[  5]   4.00-5.00   sec  5.11 MBytes  42.9 Mbits/sec                  		
+[  5]   5.00-6.00   sec  5.03 MBytes  42.2 Mbits/sec    3   22.6 KBytes       													[  5]   5.00-6.00   sec  5.04 MBytes  42.3 Mbits/sec                  		
+[  5]   6.00-7.00   sec  5.11 MBytes  42.9 Mbits/sec    0   22.6 KBytes       													[  5]   6.00-7.00   sec  5.10 MBytes  42.8 Mbits/sec                  		
+[  5]   7.00-8.00   sec  5.12 MBytes  43.0 Mbits/sec    0   22.6 KBytes       													[  5]   7.00-8.00   sec  5.12 MBytes  42.9 Mbits/sec                  		
+[  5]   8.00-9.00   sec  4.96 MBytes  41.6 Mbits/sec    0   22.6 KBytes       													[  5]   8.00-9.00   sec  4.96 MBytes  41.6 Mbits/sec                  		
+[  5]   9.00-10.00  sec  4.99 MBytes  41.8 Mbits/sec    0   22.6 KBytes       													[  5]   9.00-10.00  sec  4.98 MBytes  41.8 Mbits/sec                  		
+- - - - - - - - - - - - - - - - - - - - - - - - -													[  5]  10.00-10.00  sec   574 Bytes  14.5 Mbits/sec                  		
+[ ID] Interval           Transfer     Bitrate         Retr													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[  5]   0.00-10.00  sec  50.7 MBytes  42.5 Mbits/sec    8             sender													[ ID] Interval           Transfer     Bitrate		
+[  5]   0.00-10.00  sec  50.6 MBytes  42.4 Mbits/sec                  receiver													[  5]   0.00-10.00  sec  50.6 MBytes  42.4 Mbits/sec                  receiver		
+													-----------------------------------------------------------		
+iperf Done.													Server listening on 5201		
+root@cpm:~/scriptsH# 													-----------------------------------------------------------		
+root@cpm:~/scriptsH#  iperf3 -c 192.168.1.30 -l 210													Accepted connection from 192.168.1.20, port 39662		
+Connecting to host 192.168.1.30, port 5201													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 39664		
+[  5] local 192.168.1.20 port 39664 connected to 192.168.1.30 port 5201													[ ID] Interval           Transfer     Bitrate		
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd													[  5]   0.00-1.00   sec  10.5 MBytes  87.9 Mbits/sec                  		
+[  5]   0.00-1.00   sec  10.5 MBytes  88.0 Mbits/sec    0   26.9 KBytes       													[  5]   1.00-2.00   sec  11.0 MBytes  92.6 Mbits/sec                  		
+[  5]   1.00-2.00   sec  11.0 MBytes  92.6 Mbits/sec    0   26.9 KBytes       													[  5]   2.00-3.00   sec  10.9 MBytes  91.7 Mbits/sec                  		
+[  5]   2.00-3.00   sec  10.9 MBytes  91.7 Mbits/sec    0   29.7 KBytes       													[  5]   3.00-4.00   sec  11.0 MBytes  92.2 Mbits/sec                  		
+[  5]   3.00-4.00   sec  11.0 MBytes  92.2 Mbits/sec    0   29.7 KBytes       													[  5]   4.00-5.00   sec  11.0 MBytes  92.2 Mbits/sec                  		
+[  5]   4.00-5.00   sec  11.0 MBytes  92.2 Mbits/sec    0   29.7 KBytes       													[  5]   5.00-6.00   sec  11.1 MBytes  92.7 Mbits/sec                  		
+[  5]   5.00-6.00   sec  11.1 MBytes  92.7 Mbits/sec    0   62.2 KBytes       													[  5]   6.00-7.00   sec  11.0 MBytes  92.4 Mbits/sec                  		
+[  5]   6.00-7.00   sec  11.0 MBytes  92.4 Mbits/sec    0   62.2 KBytes       													[  5]   7.00-8.00   sec  11.0 MBytes  92.5 Mbits/sec                  		
+[  5]   7.00-8.00   sec  11.0 MBytes  92.5 Mbits/sec    0   62.2 KBytes       													[  5]   8.00-9.00   sec  11.0 MBytes  92.4 Mbits/sec                  		
+[  5]   8.00-9.00   sec  11.0 MBytes  92.4 Mbits/sec    0   62.2 KBytes       													[  5]   9.00-10.00  sec  10.7 MBytes  89.4 Mbits/sec                  		
+[  5]   9.00-10.00  sec  11.1 MBytes  93.2 Mbits/sec    0    236 KBytes       													[  5]  10.00-10.00  sec  7.18 KBytes  88.7 Mbits/sec                  		
+- - - - - - - - - - - - - - - - - - - - - - - - -													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[ ID] Interval           Transfer     Bitrate         Retr													[ ID] Interval           Transfer     Bitrate		
+[  5]   0.00-10.00  sec   110 MBytes  92.0 Mbits/sec    0             sender													[  5]   0.00-10.00  sec   109 MBytes  91.6 Mbits/sec                  receiver		
+[  5]   0.00-10.00  sec   109 MBytes  91.6 Mbits/sec                  receiver													-----------------------------------------------------------		
+													Server listening on 5201		
+iperf Done.													-----------------------------------------------------------		
+root@cpm:~/scriptsH#  iperf3 -c 192.168.1.30 -l 466													Accepted connection from 192.168.1.20, port 39666		
+Connecting to host 192.168.1.30, port 5201													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 39668		
+[  5] local 192.168.1.20 port 39668 connected to 192.168.1.30 port 5201													[ ID] Interval           Transfer     Bitrate		
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd													[  5]   0.00-1.00   sec  11.1 MBytes  93.1 Mbits/sec                  		
+[  5]   0.00-1.00   sec  11.3 MBytes  95.0 Mbits/sec    0    116 KBytes       													[  5]   1.00-2.00   sec  11.1 MBytes  93.5 Mbits/sec                  		
+[  5]   1.00-2.00   sec  11.2 MBytes  94.0 Mbits/sec    0    150 KBytes       													[  5]   2.00-3.00   sec  11.2 MBytes  93.8 Mbits/sec                  		
+[  5]   2.00-3.00   sec  11.2 MBytes  94.1 Mbits/sec    0    165 KBytes       													[  5]   3.00-4.00   sec  11.1 MBytes  93.5 Mbits/sec                  		
+[  5]   3.00-4.00   sec  11.1 MBytes  93.5 Mbits/sec    0    165 KBytes       													[  5]   4.00-5.00   sec  11.1 MBytes  93.2 Mbits/sec                  		
+[  5]   4.00-5.00   sec  11.1 MBytes  93.5 Mbits/sec    0    182 KBytes       													[  5]   5.00-6.00   sec  11.1 MBytes  93.1 Mbits/sec                  		
+[  5]   5.00-6.00   sec  11.1 MBytes  93.1 Mbits/sec    0    182 KBytes       													[  5]   6.00-7.00   sec  11.1 MBytes  93.2 Mbits/sec                  		
+[  5]   6.00-7.00   sec  11.1 MBytes  93.2 Mbits/sec    0    182 KBytes       													[  5]   7.00-8.00   sec  11.1 MBytes  93.2 Mbits/sec                  		
+[  5]   7.00-8.00   sec  11.1 MBytes  93.3 Mbits/sec    0    182 KBytes       													[  5]   8.00-9.00   sec  11.1 MBytes  93.2 Mbits/sec                  		
+[  5]   8.00-9.00   sec  11.1 MBytes  93.2 Mbits/sec    0    182 KBytes       													[  5]   9.00-10.00  sec  11.1 MBytes  92.9 Mbits/sec                  		
+[  5]   9.00-10.00  sec  11.1 MBytes  92.9 Mbits/sec    0    182 KBytes       													[  5]  10.00-10.00  sec  6.10 KBytes  79.8 Mbits/sec                  		
+- - - - - - - - - - - - - - - - - - - - - - - - -													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[ ID] Interval           Transfer     Bitrate         Retr													[ ID] Interval           Transfer     Bitrate		
+[  5]   0.00-10.00  sec   112 MBytes  93.6 Mbits/sec    0             sender													[  5]   0.00-10.00  sec   111 MBytes  93.3 Mbits/sec                  receiver		
+[  5]   0.00-10.00  sec   111 MBytes  93.3 Mbits/sec                  receiver													-----------------------------------------------------------		
+													Server listening on 5201		
+iperf Done.													-----------------------------------------------------------		
+root@cpm:~/scriptsH# 													Accepted connection from 192.168.1.20, port 39670		
+root@cpm:~/scriptsH#  iperf3 -c 192.168.1.30 -l 978													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 39672		
+Connecting to host 192.168.1.30, port 5201													[ ID] Interval           Transfer     Bitrate		
+[  5] local 192.168.1.20 port 39672 connected to 192.168.1.30 port 5201													[  5]   0.00-1.00   sec  11.1 MBytes  92.9 Mbits/sec                  		
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd													[  5]   1.00-2.00   sec  11.1 MBytes  93.0 Mbits/sec                  		
+[  5]   0.00-1.00   sec  11.1 MBytes  93.0 Mbits/sec    0   22.6 KBytes       													[  5]   2.00-3.00   sec  11.2 MBytes  93.7 Mbits/sec                  		
+[  5]   1.00-2.00   sec  11.2 MBytes  93.9 Mbits/sec    0   62.2 KBytes       													[  5]   3.00-4.00   sec  11.2 MBytes  93.7 Mbits/sec                  		
+[  5]   2.00-3.00   sec  11.3 MBytes  94.4 Mbits/sec    0    102 KBytes       													[  5]   4.00-5.00   sec  11.2 MBytes  93.7 Mbits/sec                  		
+[  5]   3.00-4.00   sec  11.2 MBytes  93.7 Mbits/sec    0    107 KBytes       													[  5]   5.00-6.00   sec  11.2 MBytes  94.1 Mbits/sec                  		
+[  5]   4.00-5.00   sec  11.2 MBytes  93.9 Mbits/sec    0    113 KBytes       													[  5]   6.00-7.00   sec  11.2 MBytes  94.1 Mbits/sec                  		
+[  5]   5.00-6.00   sec  11.2 MBytes  94.0 Mbits/sec    0    113 KBytes       													[  5]   7.00-8.00   sec  11.2 MBytes  93.8 Mbits/sec                  		
+[  5]   6.00-7.00   sec  11.2 MBytes  94.0 Mbits/sec    0    113 KBytes       													[  5]   8.00-9.00   sec  11.2 MBytes  93.9 Mbits/sec                  		
+[  5]   7.00-8.00   sec  11.2 MBytes  94.1 Mbits/sec    0    132 KBytes       													[  5]   9.00-10.00  sec  11.2 MBytes  94.0 Mbits/sec                  		
+[  5]   8.00-9.00   sec  11.2 MBytes  94.3 Mbits/sec    0    157 KBytes       													[  5]  10.00-10.00  sec  5.73 KBytes  64.8 Mbits/sec                  		
+[  5]   9.00-10.00  sec  11.2 MBytes  94.0 Mbits/sec    0    157 KBytes       													- - - - - - - - - - - - - - - - - - - - - - - - -		
+- - - - - - - - - - - - - - - - - - - - - - - - -													[ ID] Interval           Transfer     Bitrate		
+[ ID] Interval           Transfer     Bitrate         Retr													[  5]   0.00-10.00  sec   112 MBytes  93.7 Mbits/sec                  receiver		
+[  5]   0.00-10.00  sec   112 MBytes  93.9 Mbits/sec    0             sender													-----------------------------------------------------------		
+[  5]   0.00-10.00  sec   112 MBytes  93.7 Mbits/sec                  receiver													Server listening on 5201		
+													-----------------------------------------------------------		
+iperf Done.													Accepted connection from 192.168.1.20, port 39674		
+root@cpm:~/scriptsH# 													[  5] local 192.168.1.30 port 5201 connected to 192.168.1.20 port 39676		
+root@cpm:~/scriptsH#  iperf3 -c 192.168.1.30 -l 1472													[ ID] Interval           Transfer     Bitrate		
+Connecting to host 192.168.1.30, port 5201													[  5]   0.00-1.00   sec  11.1 MBytes  93.4 Mbits/sec                  		
+[  5] local 192.168.1.20 port 39676 connected to 192.168.1.30 port 5201													[  5]   1.00-2.00   sec  11.2 MBytes  94.1 Mbits/sec                  		
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd													[  5]   2.00-3.00   sec  11.2 MBytes  94.0 Mbits/sec                  		
+[  5]   0.00-1.00   sec  11.3 MBytes  95.1 Mbits/sec    0    109 KBytes       													[  5]   3.00-4.00   sec  11.2 MBytes  93.9 Mbits/sec                  		
+[  5]   1.00-2.00   sec  11.2 MBytes  94.2 Mbits/sec    0    115 KBytes       													[  5]   4.00-5.00   sec  11.2 MBytes  94.1 Mbits/sec                  		
+[  5]   2.00-3.00   sec  11.2 MBytes  94.3 Mbits/sec    0    139 KBytes       													[  5]   5.00-6.00   sec  11.2 MBytes  93.9 Mbits/sec                  		
+[  5]   3.00-4.00   sec  11.2 MBytes  94.0 Mbits/sec    0    146 KBytes       													[  5]   6.00-7.00   sec  11.2 MBytes  93.9 Mbits/sec                  		
+[  5]   4.00-5.00   sec  11.2 MBytes  94.2 Mbits/sec    0    153 KBytes       													[  5]   7.00-8.00   sec  11.2 MBytes  94.0 Mbits/sec                  		
+[  5]   5.00-6.00   sec  11.2 MBytes  94.0 Mbits/sec    0    153 KBytes       													[  5]   8.00-9.00   sec  11.2 MBytes  94.0 Mbits/sec                  		
+[  5]   6.00-7.00   sec  11.2 MBytes  93.7 Mbits/sec    0    153 KBytes       													[  5]   9.00-10.00  sec  11.2 MBytes  93.9 Mbits/sec                  		
+[  5]   7.00-8.00   sec  11.2 MBytes  94.1 Mbits/sec    0    153 KBytes       													[  5]  10.00-10.01  sec  18.4 KBytes  11.5 Mbits/sec                  		
+[  5]   8.00-9.00   sec  11.2 MBytes  94.0 Mbits/sec    0    153 KBytes       													- - - - - - - - - - - - - - - - - - - - - - - - -		
+[  5]   9.00-10.00  sec  11.1 MBytes  93.3 Mbits/sec    0    153 KBytes       													[ ID] Interval           Transfer     Bitrate		
+- - - - - - - - - - - - - - - - - - - - - - - - -													[  5]   0.00-10.01  sec   112 MBytes  93.8 Mbits/sec                  receiver		
+[ ID] Interval           Transfer     Bitrate         Retr													-----------------------------------------------------------		
+[  5]   0.00-10.00  sec   112 MBytes  94.1 Mbits/sec    0             sender													Server listening on 5201		
+[  5]   0.00-10.01  sec   112 MBytes  93.8 Mbits/sec                  receiver													-----------------------------------------------------------		
+													^Ciperf3: interrupt - the server has terminated		
+iperf Done.													root@cpm:~/scriptsH# 		
+root@cpm:~/scriptsH# 															
+root@cpm:~/scriptsH# 															
+CTRL-A Z for help | 115200 8N1 | NOR | Minicom 2.7.1 | VT102 | Offline | ttyUSB4                                        
